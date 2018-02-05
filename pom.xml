@@ -5,9 +5,7 @@
 	<groupId>com.appjangle.qunit</groupId>
 	<artifactId>java-qunit</artifactId>
 	<version>0.0.7</version>
-	<description>Java and JavaScript utilities to embed QUnit tests in
-		JUnit tests via HTMLUnit.
-	</description>
+	<description>Java and JavaScript utilities to embed QUnit tests in JUnit tests via HTMLUnit.</description>
 
 	<properties>
 		<module.gwtVersion>2.8.2</module.gwtVersion>
