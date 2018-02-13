@@ -28,7 +28,7 @@ public class QUnit {
             WebClient webClient = null;
             try {
                 System.getProperties().put("org.apache.commons.logging.simplelog.defaultlog", "error");
-                webClient = new WebClient(BrowserVersion.FIREFOX_24);
+                webClient = new WebClient(BrowserVersion.CHROME);
 
                 /*
                  * Temporarily required since Godaddy certificates are not added
@@ -92,7 +92,7 @@ public class QUnit {
             } finally {
                 if (webClient != null) {
 
-                    webClient.closeAllWindows();
+                    webClient.close();
                 }
 
             }
