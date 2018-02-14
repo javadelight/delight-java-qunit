@@ -54,7 +54,9 @@ public class QUnit {
                         Assert.fail("Tests took longer than 1024 s to execute.");
                     }
                 }
-
+                	
+                Thread.sleep(1000);
+                
                 final HtmlElement element = page.getHtmlElementById("qunit");
 
                 if (element.getTextContent().indexOf("0 tests of 0") != -1) {
